@@ -30,5 +30,3 @@ let data = [
         location: "USA"
     },
 ]
-
-export default data
