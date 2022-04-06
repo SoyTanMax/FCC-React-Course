@@ -1,0 +1,73 @@
+.App {
+  min-height: 100vh;
+}
+/* Navbar styles */
+  .navbar{
+  background: white;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.logo{
+  padding: 24px 36px;
+}
+/* Hero styles */
+section{
+  padding: 20px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.hero-image{
+  max-width: 400px;
+  align-self: center;
+}
+.hero-header{
+  margin-bottom: 16px;
+}
+.hero-text{
+  margin-top: 0;
+}
+/* Card styles */
+.card{
+  max-width: 176px;
+  margin-right: 18px;
+}
+.rating{
+  display: flex;
+}
+.rating p{
+  font-size: 12px;
+  margin: 0;
+}
+.location{
+  color: #918E9B;
+  text-transform: capitalize;
+}
+.quantity{
+  margin-right: 4px !important;
+}
+.description, .price{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+.image-container{
+  position: relative;
+}
+.status{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-size: 10.24px;
+  color: black;
+  text-transform: uppercase;
+  padding: 4px 6px;
+  background: white;
+  border-radius: 4px;
+}
+.experiences{
+  padding-top: 0;
+  display: flex;
+  overflow: scroll;
+}
