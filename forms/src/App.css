@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 20px;
+}
+input, textarea{
+  margin-bottom: 15px;
+  height: 30px;
+  text-indent: 6px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: block;
+}
+input[type=checkbox], input[type=radio]{
+  margin-bottom: 0;
+  margin-right: 8px;
+}
+.field{
+  display: flex;
+  align-items: center;
+}
